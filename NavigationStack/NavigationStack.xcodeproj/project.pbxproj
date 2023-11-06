@@ -11,6 +11,7 @@
 		46CA4BC32AF991AA0046C3CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA4BC22AF991AA0046C3CD /* ContentView.swift */; };
 		46CA4BC52AF991AB0046C3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CA4BC42AF991AB0046C3CD /* Assets.xcassets */; };
 		46CA4BC82AF991AB0046C3CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CA4BC72AF991AB0046C3CD /* Preview Assets.xcassets */; };
+		46CA4BCF2AF998C50046C3CD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CA4BCE2AF998C50046C3CD /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		46CA4BC22AF991AA0046C3CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46CA4BC42AF991AB0046C3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46CA4BC72AF991AB0046C3CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		46CA4BCE2AF998C50046C3CD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				46CA4BC02AF991AA0046C3CD /* NavigationStackApp.swift */,
 				46CA4BC22AF991AA0046C3CD /* ContentView.swift */,
+				46CA4BCE2AF998C50046C3CD /* DetailView.swift */,
 				46CA4BC42AF991AB0046C3CD /* Assets.xcassets */,
 				46CA4BC62AF991AB0046C3CD /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46CA4BC32AF991AA0046C3CD /* ContentView.swift in Sources */,
+				46CA4BCF2AF998C50046C3CD /* DetailView.swift in Sources */,
 				46CA4BC12AF991AA0046C3CD /* NavigationStackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

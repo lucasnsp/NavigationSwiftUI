@@ -38,19 +38,21 @@ struct ContentView: View {
         // NavigationStack Destination
         NavigationStack {
             VStack(spacing: 10.0) {
-                NavigationLink("ir para tela 1", value: "Sou a tela 1")
-                NavigationLink("ir para tela 2", value: Color.red)
+                NavigationLink("ir para tela 1", value: Detail(name: "Fulano", color: .orange))
+                NavigationLink("ir para tela 2", value: Detail(name: "manda mandando", color: .purple))
                 
             }
-            .navigationDestination(for: String.self) { value in
-                Text(value)
+            .navigationDestination(for: Detail.self) { value in
+                DetailView(model: value)
             }
-            .navigationDestination(for: Color.self) { value in
+            .navigationDestination(for: Detail.self) { value in
                 ZStack {
-                    value
+                    DetailView(model: value)
                 }
                 .ignoresSafeArea()
             }
+            .navigationTitle("Olá mundo")
+            .navigationBarTitleDisplayMode(.large)
         }
     }
 }
